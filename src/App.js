@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Frame1Img from "./Frame 1Image.svg"
+import Frame1 from './components/Frame1';
+import Frame2 from './components/Frame2';
+import Frame3 from './components/Frame3';
+import Frame4 from './components/Frame4';
+import {Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <img src={Frame1Img} alt="Frame1Image" className='image' />
+     <Routes>
+     <Route path="/" element={<Frame1 />} />
+     <Route path="/Frame2" element={<Frame2 />} />
+     <Route path="/Frame3" element={<Frame3 />} />
+     <Route path="/Frame4" element={<Frame4 />} />
+     </Routes> 
+    </>
   );
 }
 

@@ -1,0 +1,92 @@
+.phone_label{
+    width: 112px;
+height: 19px;
+left: 793px;
+top: 335px;
+}
+.address_label{
+width: 101px;
+height: 19px;
+left: 793px;
+top: 456px;
+}
+.residence_label{
+width: 162px;
+height: 19px;
+left: 793px;
+top: 577px;
+}
+.vector{
+    
+position: absolute;
+left: 54%;
+top: 54%;
+}
+.number_box{
+    
+box-sizing: border-box;
+padding-left: 150px;
+position: absolute;
+width: 426px;
+height: 64px;
+left: 793px;
+top: 368px;
+
+background: #FFFFFF;
+border: 1px solid #1565D8;
+box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+border-radius: 6px;
+}
+.dropdown1{
+    width: 57px;
+height: 24px;
+left: 865px;
+top: 388px;
+border: none;
+}
+.address_box{
+    box-sizing: border-box;
+
+position: absolute;
+width: 426px;
+height: 64px;
+left: 793px;
+top: 489px;
+
+border: 1px solid #8692A6;
+border-radius: 6px;
+padding-left: 25px;
+}
+.residence_box{
+    box-sizing: border-box;
+
+position: absolute;
+width: 426px;
+height: 64px;
+left: 793px;
+top: 610px;
+
+border: 1px solid #8692A6;
+border-radius: 6px;
+padding-left: 25px;
+}
+.dropdown2{
+    width: 426px;
+height: 64px;
+border: none;
+border: 1px solid #8692A6;
+border-radius: 6px;
+  box-sizing: border-box;
+  left: 793px;
+top: 610px;
+padding-left: 25px;
+}
+.safe{
+   height: 15px;
+    left: 61.42%;
+    right: 0.24%;
+    top: 128%;
+}
+.frame3safe{
+        top: 117%;
+}
